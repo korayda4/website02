@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 15px;
+    display: block;
+    width: 1160px;
+    text-align: left;
+} 
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+header .navbar a {
+    text-decoration: none;
+    margin: 10px;
+}
+.ilkdiv {
+
+    padding-top: 15px;
+    display: block;
+    margin: 0 auto;
+    width: 1160px;
+    text-align: left;
+}
+.ilkdiv .buyukyazi {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1000px;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.eklentileri {
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.resim {
+    align-items: center;
+    display: flex;
+}
+.resim p{
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    align-content: center;
+}
+.eklentileri img {
+    height: 28px;
+    width: 28px;
+    border-radius: 250px;
+}
+
+.icons img {
+    margin-inline: 5px;
+}
+
+.dvider {
+    padding-top: 15px;
+    display: block;
+    margin: 0 auto;
+    width: 1160px;
+    height: 2px;
+}
+.ikincidiv {
+    padding-top: 15px;
+    display: block;
+    margin: 0 auto;
+    width: 1160px;
+    text-align: left;
+}
+.ikincidiv img {
+    width: 100%;
+    justify-content: center;    
+}
+
+.ikincidiv p {
+    width: 1112px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.ucuncudiv {
+    padding-top: 140px;
+    display: flex;
+    margin: 0 auto;
+    width: 1160px;
+    text-align: left;
+    margin-bottom: 75px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: row; */
+}
+.ucuncudiv img {
+    width: 440px;
+}
+.bilgilendirmemesaji {
+    display: block;
+}
+.ucuncudiv h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    display: block;
+    max-width: 550px;
+    width: 546px;
+    height: 90px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.ucuncudiv .kucukyazi h4{
+    display: inl;
+    max-height: auto;
+    width: 546px;
+    margin: 0;
+    height: 90px;
+    font-size: 14px;
+    margin-left: 50px;
+    line-height: 22px;
+}
+.kucukyazi h4{
+    display: inl;
+    max-height: auto;
+    width: 546px;
+    margin: 0;
+    height: 90px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.besincidiv {
+    padding-top: 140px;
+    display: flex;
+    margin: 0 auto;
+    width: 1160px;
+    text-align: left;
+    margin-bottom: 200px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: row; */
+}
+.besincidiv img {
+    padding-left: 125px;
+    width: 440px;
+}
+
+.besincidiv h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    display: block;
+    max-width: 550px;
+    width: 546px;
+    height: 90px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.altincidiv p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.altincidiv  {
+    padding-bottom: 75px;
+}
+
+.ornekler {
+    display: flex;
+    gap: 45px;
+    padding-bottom: 25px;
+}
+
+.ornekler .ornek {
+    border-radius: 15px;
+    padding: 10px;
+    backdrop-filter: 25px;
+    box-shadow:
+    5.1px 7px 10px rgba(0, 0, 0, 0.045),
+    41px 56px 80px rgba(0, 0, 0, 0.09)
+    ;
+}
+footer{
+    font-size: 14px;
+}
+.ustkisim {
+    margin-top: 25px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.sutun {
+    margin-bottom: 15px;
+}
+
+.ustkisim .yankisim  {
+    display: flex;
+    flex-direction: column;
+    /* width: 00px; */
+    align-items: center;
+    justify-self: right;
+}
+.ustkisim .yankisim img {
+    position: absolute;
+    top: 570%;
+    width: 250px;
+    left: 71%;
+}
+
+.altkisim {
+    padding: 5px;
+    margin-top: 25px;
+    margin: 0 auto;
+    max-width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+   
+}
+
+.sosyalmedya img {
+    display: inline;
+    padding-right: 30px;
+     gap: 50px;
+}
