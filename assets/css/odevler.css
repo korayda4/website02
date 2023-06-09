@@ -1,3 +1,23 @@
+@media (max-width: 600px) {
+    .odev {
+      max-width: 300px !important;
+      min-width: 300px !important;
+      max-height: 500px !important;
+    }
+    .container {
+        max-width: 300px !important;
+        margin-top: 85px !important;
+    }
+
+}
+
+
+body {
+    background-image: url(..//image/luke-chesser-pJadQetzTkI-unsplash.png);
+    height: 100%;
+    background-size: cover;
+}
+
 .container {
     justify-content: center;
     margin: 0 auto;
@@ -27,7 +47,7 @@ header {
 }
 
 a {
-    color: bisque;
+    color: rgb(255, 140, 0);
     text-decoration: none;
 }
 
@@ -41,7 +61,7 @@ a {
     display: flex;
     flex-direction: column;
     padding: 25px;
-    background-color: rgba(255, 255, 255, 0.123);
+    background-color: rgba(255, 255, 255, 0.521);
     border-radius: 25px;
     box-shadow:
     2.8px 2.8px 2.2px rgba(0, 0, 0, 0.073),
