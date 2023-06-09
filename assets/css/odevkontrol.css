@@ -3,11 +3,17 @@
     .odev {
       max-width: 300px !important;
       min-width: 300px !important;
-      max-height: 500px !important;
+      max-height: 550px !important;
     }
     .container {
         max-width: 300px !important;
         margin-top: 85px !important;
+    }
+    .yayın {
+        padding: 10px 55px !important;
+    }
+    .github {
+        padding: 10px 55px !important;
     }
 
 }
@@ -48,7 +54,6 @@ header {
 
 .isim p {
     text-align: center;
-    letter-spacing: 10px;
     font-size: 20px;
     background-color: rgba(0, 238, 255, 0.322);
     padding: 5px;
@@ -98,7 +103,6 @@ a {
 }
 
 .odev {
-    max-height: 300px;
     animation: slide-up 1s ease-in-out forwards;
     min-width: 400px;
     margin-top: 5%;
@@ -141,4 +145,21 @@ a {
     padding: 10px 80px;
     background-color: rgba(48, 0, 80, 0.747);
     border-radius: 10px;
+}
+
+.yayın:hover {
+    animation: change 0.5s ease-in-out forwards;
+}
+
+.github:hover {
+    animation: change 0.5s ease-in-out forwards;
+}
+
+@keyframes change {
+    0% {
+        background-color: rgba(48, 0, 80, 0.747);
+    }
+    100% {
+        background-color: rgba(43, 141, 4, 0.945);
+    }
 }
