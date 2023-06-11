@@ -219,6 +219,7 @@ footer{
     align-items: center;
     justify-self: right;
 }
+
 .ustkisim .yankisim img {
     position: absolute;
     top: 570%;
@@ -234,9 +235,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
-   
 }
 
 .sosyalmedya img {
